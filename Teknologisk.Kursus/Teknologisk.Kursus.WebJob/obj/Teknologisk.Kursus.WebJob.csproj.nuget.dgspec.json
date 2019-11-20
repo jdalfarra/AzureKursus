@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Documents\\Azure\\Teknologisk.Kursus.WebJob\\Teknologisk.Kursus.WebJob\\Teknologisk.Kursus.WebJob.csproj": {}
+    "C:\\Users\\admin\\Documents\\Azure\\Teknologisk.Kursus\\Teknologisk.Kursus.WebJob\\Teknologisk.Kursus.WebJob.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Documents\\Azure\\Teknologisk.Kursus.WebJob\\Teknologisk.Kursus.WebJob\\Teknologisk.Kursus.WebJob.csproj": {
+    "C:\\Users\\admin\\Documents\\Azure\\Teknologisk.Kursus\\Teknologisk.Kursus.WebJob\\Teknologisk.Kursus.WebJob.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Documents\\Azure\\Teknologisk.Kursus.WebJob\\Teknologisk.Kursus.WebJob\\Teknologisk.Kursus.WebJob.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Documents\\Azure\\Teknologisk.Kursus\\Teknologisk.Kursus.WebJob\\Teknologisk.Kursus.WebJob.csproj",
         "projectName": "Teknologisk.Kursus.WebJob",
-        "projectPath": "C:\\Users\\admin\\Documents\\Azure\\Teknologisk.Kursus.WebJob\\Teknologisk.Kursus.WebJob\\Teknologisk.Kursus.WebJob.csproj",
+        "projectPath": "C:\\Users\\admin\\Documents\\Azure\\Teknologisk.Kursus\\Teknologisk.Kursus.WebJob\\Teknologisk.Kursus.WebJob.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Documents\\Azure\\Teknologisk.Kursus.WebJob\\Teknologisk.Kursus.WebJob\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Documents\\Azure\\Teknologisk.Kursus\\Teknologisk.Kursus.WebJob\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
