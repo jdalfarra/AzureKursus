@@ -1,0 +1,2 @@
+Install-Module -Name Az -AllowClobber
+New-AzResourceGroupDeployment -Name "DeploymentVM2" -ResourceGroupName "Teknologisk" -TemplateParameterFile .\parameters.json  -TemplateFile .\template.json

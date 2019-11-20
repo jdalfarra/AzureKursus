@@ -1,0 +1,7 @@
+WEB APPS:
+- WEB APP
+	- WEB APP service plan: windows machine with iss where you can add WEB APPS
+- FUNCTION APP
+- API APP
+- LOGIC APP
+- MOBILE APP
