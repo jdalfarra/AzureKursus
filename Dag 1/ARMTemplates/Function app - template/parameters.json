@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "c908c15c-b267-426b-874c-82bac00e9fef"
+        },
+        "name": {
+            "value": "jdk-azure-functionapp"
+        },
+        "location": {
+            "value": "West Europe"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "hostingPlanName": {
+            "value": "Teknologisk"
+        },
+        "serverFarmResourceGroup": {
+            "value": "Teknologisk"
+        },
+        "alwaysOn": {
+            "value": true
+        },
+        "storageAccountName": {
+            "value": "storageaccounttekno9a34"
+        },
+        "linuxFxVersion": {
+            "value": "2.2"
+        }
+    }
+}

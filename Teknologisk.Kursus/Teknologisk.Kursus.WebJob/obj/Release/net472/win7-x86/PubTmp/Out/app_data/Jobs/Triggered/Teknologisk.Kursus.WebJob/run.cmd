@@ -1,0 +1,1 @@
+Teknologisk.Kursus.WebJob.exe %*
