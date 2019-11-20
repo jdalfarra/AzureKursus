@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teknologisk.Kursus.WebJob", "Teknologisk.Kursus.WebJob\Teknologisk.Kursus.WebJob.csproj", "{AC2F0C58-E1F7-431D-AD77-5DD008039B82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teknologisk.Kursus.WebJob", "Teknologisk.Kursus.WebJob\Teknologisk.Kursus.WebJob.csproj", "{AC2F0C58-E1F7-431D-AD77-5DD008039B82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teknologisk.Kursus.Functions", "Teknologisk.Kursus.Functions\Teknologisk.Kursus.Functions.csproj", "{0C523D76-3C0F-4E40-A21E-029E7456F56C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teknologisk.Kursus.Functions", "Teknologisk.Kursus.Functions\Teknologisk.Kursus.Functions.csproj", "{0C523D76-3C0F-4E40-A21E-029E7456F56C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
