@@ -99,3 +99,8 @@ C:\Users\admin\Documents\Azure\Teknologisk.Kursus\Teknologisk.Kursus.Functions\b
 C:\Users\admin\Documents\Azure\Teknologisk.Kursus\Teknologisk.Kursus.Functions\bin\Debug\netcoreapp2.1\bin\Microsoft.Rest.ClientRuntime.Azure.Authentication.dll
 C:\Users\admin\Documents\Azure\Teknologisk.Kursus\Teknologisk.Kursus.Functions\obj\Debug\netcoreapp2.1\Teknologisk.Kursus.Functions.dll
 C:\Users\admin\Documents\Azure\Teknologisk.Kursus\Teknologisk.Kursus.Functions\obj\Debug\netcoreapp2.1\Teknologisk.Kursus.Functions.pdb
+C:\Users\admin\Documents\Azure\Teknologisk.Kursus\Teknologisk.Kursus.Functions\bin\Debug\netcoreapp2.1\bin\Microsoft.Azure.WebJobs.Extensions.Storage.dll
+C:\Users\admin\Documents\Azure\Teknologisk.Kursus\Teknologisk.Kursus.Functions\bin\Debug\netcoreapp2.1\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\admin\Documents\Azure\Teknologisk.Kursus\Teknologisk.Kursus.Functions\bin\Debug\netcoreapp2.1\bin\Microsoft.Azure.Storage.Blob.dll
+C:\Users\admin\Documents\Azure\Teknologisk.Kursus\Teknologisk.Kursus.Functions\bin\Debug\netcoreapp2.1\bin\Microsoft.Azure.Storage.Common.dll
+C:\Users\admin\Documents\Azure\Teknologisk.Kursus\Teknologisk.Kursus.Functions\bin\Debug\netcoreapp2.1\bin\Microsoft.Azure.Services.AppAuthentication.dll

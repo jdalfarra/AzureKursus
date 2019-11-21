@@ -1,0 +1,38 @@
+Storage account: only blobs options
+encryption with key vaults
+
+
+- BLOB
+	- BLOCK BLOBS
+	  - Streaming, images, videos etc.
+	- APPEND BLOBS
+	  - Good for logging or appending
+	- PAGE BLOBS
+	  - Files, compressed
+
+ASP.NET web application
+- first: find the strategy to transfer data
+	- Access Keys
+- Nuget packages: Microsoft.Azure.Storage.Blob
+ - CloudStorageAccount.Parse(connectionstring)
+ - CloudBlobClient = ^.CreateCloudBlobClient()
+ - CloudBlobContainer ^.GetContainerReference()
+ - ^.createIfNotExits()
+ - cloudBlobContainer.ListBlobs()
+ - Check for types
+ - Cast to the proper types and list the Blobs with the model
+ 
+
+- Azure function
+ - handleBlobupload
+ - name: StorageAccountConnection
+ - path: files
+ - add StorageAccountConnection to local.settings.json
+ - also add StorageAccountConnection to when deploying to azure PlatformFeatures -> configurations -> new application  setting
+ - 
+
+- FILE
+- QUEUE
+	- First in - not first out
+- TABLE
+	- NO-SQL

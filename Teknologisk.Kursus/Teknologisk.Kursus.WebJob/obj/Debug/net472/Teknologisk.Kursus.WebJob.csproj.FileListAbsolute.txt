@@ -55,3 +55,10 @@ C:\Users\admin\Documents\Azure\Teknologisk.Kursus\Teknologisk.Kursus.WebJob\obj\
 C:\Users\admin\Documents\Azure\Teknologisk.Kursus\Teknologisk.Kursus.WebJob\obj\Debug\net472\Teknologisk.Kursus.WebJob.csproj.CopyComplete
 C:\Users\admin\Documents\Azure\Teknologisk.Kursus\Teknologisk.Kursus.WebJob\obj\Debug\net472\Teknologisk.Kursus.WebJob.exe
 C:\Users\admin\Documents\Azure\Teknologisk.Kursus\Teknologisk.Kursus.WebJob\obj\Debug\net472\Teknologisk.Kursus.WebJob.pdb
+C:\Users\admin\Documents\Azure\Teknologisk.Kursus\Teknologisk.Kursus.WebJob\bin\Debug\net472\Microsoft.Azure.KeyVault.dll
+C:\Users\admin\Documents\Azure\Teknologisk.Kursus\Teknologisk.Kursus.WebJob\bin\Debug\net472\Microsoft.Azure.KeyVault.WebKey.dll
+C:\Users\admin\Documents\Azure\Teknologisk.Kursus\Teknologisk.Kursus.WebJob\bin\Debug\net472\Microsoft.Rest.ClientRuntime.dll
+C:\Users\admin\Documents\Azure\Teknologisk.Kursus\Teknologisk.Kursus.WebJob\bin\Debug\net472\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\admin\Documents\Azure\Teknologisk.Kursus\Teknologisk.Kursus.WebJob\bin\Debug\net472\Microsoft.Azure.Services.AppAuthentication.dll
+C:\Users\admin\Documents\Azure\Teknologisk.Kursus\Teknologisk.Kursus.WebJob\bin\Debug\net472\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\admin\Documents\Azure\Teknologisk.Kursus\Teknologisk.Kursus.WebJob\bin\Debug\net472\Microsoft.IdentityModel.Clients.ActiveDirectory.dll

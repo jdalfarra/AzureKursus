@@ -38,9 +38,17 @@
       "frameworks": {
         "net472": {
           "dependencies": {
+            "Microsoft.Azure.KeyVault": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            },
             "Microsoft.Azure.KeyVault.Core": {
               "target": "Package",
               "version": "[1.0.0, )"
+            },
+            "Microsoft.Azure.Services.AppAuthentication": {
+              "target": "Package",
+              "version": "[1.0.3, )"
             },
             "Microsoft.Azure.WebJobs": {
               "target": "Package",

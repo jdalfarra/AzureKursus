@@ -1,0 +1,9 @@
+Save confidential keys:
+ - Certificates
+ - Secrets
+    |_ URL
+ -  Replace hardcoded keys:
+ 	- AzureServiceTokenProvider()
+	- KeyVaultClient(new KeyVaultClient.AuthenticationCallback(azureServiceTokenProvider.KeyVaultTokenCallback))
+	- KeyVaultClient.GetSecretAsync("keyvault url").GetAwaiter().GetResult().Result
+	- T

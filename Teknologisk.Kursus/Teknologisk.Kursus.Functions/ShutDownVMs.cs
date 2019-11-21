@@ -1,8 +1,10 @@
 using System;
+using Microsoft.Azure.KeyVault;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.Management.Fluent;
 using Microsoft.Extensions.Logging;
 using Microsoft.Azure.Management.ResourceManager.Fluent;
+using Microsoft.Azure.Services.AppAuthentication;
 
 namespace Teknologisk.Kursus.Functions
 {
@@ -15,9 +17,17 @@ namespace Teknologisk.Kursus.Functions
 
             //get acces through  Home -> Default Directory -App registrations -> Register an application
 
-            var clientId = "";
-            var tenantId = "";
-            var clientSecret = "";
+            const string clientIdConnectionString = "https://mainvaultjdk.vault.azure.net/secrets/clientId";
+            const string tenantIdConnectionString = "https://mainvaultjdk.vault.azure.net/secrets/tenantId";
+            const string clientSecretConnectionString = "https://mainvaultjdk.vault.azure.net/secrets/clientSecret";
+            var azureServiceTokenProvider = new AzureServiceTokenProvider();
+            var keyVaultClient =
+                new KeyVaultClient(
+                    new KeyVaultClient.AuthenticationCallback(azureServiceTokenProvider.KeyVaultTokenCallback));
+
+            var clientId = keyVaultClient.GetSecretAsync(clientIdConnectionString).GetAwaiter().GetResult().Value;
+            var tenantId = keyVaultClient.GetSecretAsync(tenantIdConnectionString).GetAwaiter().GetResult().Value;
+            var clientSecret = keyVaultClient.GetSecretAsync(clientSecretConnectionString).GetAwaiter().GetResult().Value;
 
             var credentials = SdkContext.AzureCredentialsFactory.FromServicePrincipal(clientId, clientSecret, tenantId, AzureEnvironment.AzureGlobalCloud);
 
