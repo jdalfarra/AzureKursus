@@ -36,3 +36,10 @@ ASP.NET web application
 	- First in - not first out
 - TABLE
 	- NO-SQL
+	- No relations
+	- Mandatory fields: Row key & Partition key
+
+- Cosmos DB
+	- Scalability i forhold til Table
+	- Indexering 
+	- 
