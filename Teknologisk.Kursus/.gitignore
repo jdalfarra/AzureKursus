@@ -11,6 +11,9 @@
 *.userosscache
 *.sln.docstates
 *clientSecret.txt
+*.vs\*
+*\obj
+*.cache
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
