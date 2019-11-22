@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.ApplicationInsights;
+using Microsoft.ApplicationInsights.DataContracts;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Teknologisk.Kursus.WebsiteSql.Models;
@@ -13,6 +13,8 @@ namespace Teknologisk.Kursus.WebsiteSql.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
+        TelemetryClient telemetryClient = new TelemetryClient();
+
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -20,6 +22,12 @@ namespace Teknologisk.Kursus.WebsiteSql.Controllers
 
         public IActionResult Index()
         {
+
+            var dict = new Dictionary<string, string>();
+            dict.Add("Host", HttpContext.Request.Host.Value);
+            dict.Add("User.Identity", HttpContext.User.Identity.Name);
+            telemetryClient.TrackTrace("User load frontpage",SeverityLevel.Critical, dict);
+
             return View();
         }
 
