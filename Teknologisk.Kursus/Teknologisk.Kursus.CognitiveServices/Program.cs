@@ -14,8 +14,8 @@ namespace Teknologisk.Kursus.CognitiveServices
     {
         static async Task Main(string[] args)
         {
-            string subscriptionKey = Environment.GetEnvironmentVariable("https://computervision-jdk.cognitiveservices.azure.com/");
-            string endpoint = Environment.GetEnvironmentVariable("70a9ae837f984e09b875d1c0ed0d0d7d");
+            string subscriptionKey = Environment.GetEnvironmentVariable("https://computervision-jdk.cognitiveservices.azure.com/");//doesn't work though
+            string endpoint = Environment.GetEnvironmentVariable("70a9ae837f984e09b875d1c0ed0d0d7d");//doesn't work though
 
             ComputerVisionClient client =
                 new ComputerVisionClient(new ApiKeyServiceClientCredentials(subscriptionKey))
