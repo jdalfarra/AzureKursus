@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teknologisk.Kursus.Function
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teknologiks.Kursus.Website", "Teknologiks.Kursus.Website\Teknologiks.Kursus.Website.csproj", "{EE7CA65A-4FD0-4CB6-A303-64CC3B212DC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teknologisk.Kursus.CosmosDB", "Teknologisk.Kursus.CosmosDB\Teknologisk.Kursus.CosmosDB.csproj", "{A5C654EB-051E-4BAA-9973-8A0462AD1D29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teknologisk.Kursus.CosmosDB", "Teknologisk.Kursus.CosmosDB\Teknologisk.Kursus.CosmosDB.csproj", "{A5C654EB-051E-4BAA-9973-8A0462AD1D29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teknologisk.Kursus.WebsiteSql", "Teknologisk.Kursus.WebsiteSql\Teknologisk.Kursus.WebsiteSql.csproj", "{FAAF25CF-1D32-4E88-ABDA-7D22B17ED3C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A5C654EB-051E-4BAA-9973-8A0462AD1D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5C654EB-051E-4BAA-9973-8A0462AD1D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5C654EB-051E-4BAA-9973-8A0462AD1D29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAAF25CF-1D32-4E88-ABDA-7D22B17ED3C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAAF25CF-1D32-4E88-ABDA-7D22B17ED3C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAAF25CF-1D32-4E88-ABDA-7D22B17ED3C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAAF25CF-1D32-4E88-ABDA-7D22B17ED3C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
