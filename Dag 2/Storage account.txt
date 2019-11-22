@@ -42,4 +42,7 @@ ASP.NET web application
 - Cosmos DB
 	- Scalability i forhold til Table
 	- Indexering 
+	- API: Azure table
+	- Geo redundancy
+	- Intet netværk
 	- 
