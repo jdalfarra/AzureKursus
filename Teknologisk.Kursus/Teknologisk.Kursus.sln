@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teknologisk.Kursus.StorageQ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teknologisk.Kursus.QueueFunctionTrigger", "Teknologisk.Kursus.QueueFunctionTrigger\Teknologisk.Kursus.QueueFunctionTrigger.csproj", "{4232DDD4-2CE8-4E17-9370-16E3E2625C33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teknologisk.Kursus.ServiceBusQueue", "Teknologisk.Kursus.ServiceBusQueue\Teknologisk.Kursus.ServiceBusQueue.csproj", "{BAB75B9C-6A7C-4E52-B25E-540CA0ABE8E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{4232DDD4-2CE8-4E17-9370-16E3E2625C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4232DDD4-2CE8-4E17-9370-16E3E2625C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4232DDD4-2CE8-4E17-9370-16E3E2625C33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAB75B9C-6A7C-4E52-B25E-540CA0ABE8E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAB75B9C-6A7C-4E52-B25E-540CA0ABE8E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAB75B9C-6A7C-4E52-B25E-540CA0ABE8E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAB75B9C-6A7C-4E52-B25E-540CA0ABE8E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
