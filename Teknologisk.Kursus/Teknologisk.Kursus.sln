@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teknologisk.Kursus.WebsiteS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teknologisk.Kursus.CognitiveServices", "Teknologisk.Kursus.CognitiveServices\Teknologisk.Kursus.CognitiveServices.csproj", "{F575CB1E-C006-4D44-88F5-2E79F0820EFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teknologisk.Kursus.AuthWebsite", "Teknologisk.Kursus.AuthWebsite\Teknologisk.Kursus.AuthWebsite.csproj", "{8B44744C-861B-464F-831F-D24EEBD847D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teknologisk.Kursus.AuthWebsite", "Teknologisk.Kursus.AuthWebsite\Teknologisk.Kursus.AuthWebsite.csproj", "{8B44744C-861B-464F-831F-D24EEBD847D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teknologisk.Kursus.StorageQueueApp", "Teknologisk.Kursus.StorageQueueApp\Teknologisk.Kursus.StorageQueueApp.csproj", "{A52313D3-39EA-4B3B-9743-A082A3A085A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teknologisk.Kursus.QueueFunctionTrigger", "Teknologisk.Kursus.QueueFunctionTrigger\Teknologisk.Kursus.QueueFunctionTrigger.csproj", "{4232DDD4-2CE8-4E17-9370-16E3E2625C33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{8B44744C-861B-464F-831F-D24EEBD847D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B44744C-861B-464F-831F-D24EEBD847D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B44744C-861B-464F-831F-D24EEBD847D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A52313D3-39EA-4B3B-9743-A082A3A085A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A52313D3-39EA-4B3B-9743-A082A3A085A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A52313D3-39EA-4B3B-9743-A082A3A085A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52313D3-39EA-4B3B-9743-A082A3A085A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4232DDD4-2CE8-4E17-9370-16E3E2625C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4232DDD4-2CE8-4E17-9370-16E3E2625C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4232DDD4-2CE8-4E17-9370-16E3E2625C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4232DDD4-2CE8-4E17-9370-16E3E2625C33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

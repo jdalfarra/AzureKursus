@@ -1,0 +1,6 @@
+- Storage Queue
+	- Azure Functions
+- Service Bus Queue
+- Microsoft Graph
+- Azure Relay
+- 
