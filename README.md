@@ -3,7 +3,7 @@
 ## Dag 1:
 
 **WEB APPS:**
-[Repo](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologiks.Kursus.Website)
+[REPO - web app](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologiks.Kursus.Website)
 - WEB APP 
 	- WEB APP service plan: windows machine with iss where you can add WEB APPS
 	- template
@@ -24,7 +24,7 @@
 		- triggered
 		- create web job <- publish <- check log
 **FUNCTION APP (azure functions)**
-[Repo](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.Functions)
+[REPO - function app](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.Functions)
 	- consumtion plan spinner en maskine op i MAKS 7 min
 	- simple app using fluent api
 	- 
@@ -60,6 +60,7 @@ encryption with key vaults
 
 
 **BLOB**
+[REPO - blob](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.StorageQueueApp)
 	- BLOCK BLOBS
 	  - Streaming, images, videos etc.
 	- APPEND BLOBS
@@ -125,6 +126,7 @@ Scaling
 
 ## Dag 4:
 **Authentication:**
+[REPO - Auth website](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.AuthWebsite)
  - Groups, rules etc. 
  - Basic auth in .NET possible
  
