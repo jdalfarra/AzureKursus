@@ -184,5 +184,5 @@ Query syntax:
  - Kubenetes
  	- Nodes containing VM's, that all can run different apps or services
 
-|[AZ-203 learning repo](https://github.com/MicrosoftLearning/AZ-203-DevelopingSolutionsforMicrosoftAzure)|[AZ-301 learning repo](https://github.com/MicrosoftLearning/AZ-301-MicrosoftAzureArchitectDesign)|
+| [AZ-203 learning repo](https://github.com/MicrosoftLearning/AZ-203-DevelopingSolutionsforMicrosoftAzure) | [AZ-301 learning repo](https://github.com/MicrosoftLearning/AZ-301-MicrosoftAzureArchitectDesign) |
 ------------------------------------------------------------------------------------------------------
