@@ -1,7 +1,5 @@
 # Azure Kursus 
 
-![alt text](https://cdn.iconscout.com/icon/free/png-256/azure-1-190761.png "Logo")
-
 ## Dag 1:
 
 **WEB APPS:**
@@ -185,15 +183,14 @@ Query syntax:
 | Phare  | "" |
 | Precedence  | () |
 
-** Traffic management **
+**Traffic management**
  - _Destribution_: 2 app service plans in different region
  - _loadbalance_: distribute load to diffrent web apps
  - _application gateway_: routing, security (sql injection etc.)
 	- ex. document -> send traffic to one web app, videos send traffic to another web app
 
-** API APPS **
+**API APPS**
 [Repo](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.APIAPP)
  - Similar functionality to Web apps
  - integrated with logic apps and API managemnet
  - Built in authenticaion
- - 
