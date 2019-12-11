@@ -2,7 +2,7 @@
 
 ## Dag 1:
 
-WEB APPS:
+** WEB APPS: **
 - WEB APP
 	- WEB APP service plan: windows machine with iss where you can add WEB APPS
 	- template
@@ -22,16 +22,17 @@ WEB APPS:
 		- continuous
 		- triggered
 		- create web job <- publish <- check log
-- FUNCTION APP (azure functions)
+** FUNCTION APP (azure functions) **
 	- consumtion plan spinner en maskine op i MAKS 7 min
 	- simple app using fluent api
 	- 
-- API APP
-- LOGIC APP
-- MOBILE APP
+** API APP **
+** LOGIC APP **
+** MOBILE APP **
 
 ## Dag 2
 
+** Key vault: **
 Save confidential keys:
  - Certificates
  - Secrets
@@ -42,19 +43,19 @@ Save confidential keys:
 	- KeyVaultClient.GetSecretAsync("keyvault url").GetAwaiter().GetResult().Result
 	- T
   
-Logic apps:
+** Logic apps: **
 - Workflow solution
 - Triggers
 - Actions
 - Connectors
 
-Storage accounts:
+** Storage accounts: **
 
 Storage account: only blobs options
 encryption with key vaults
 
 
-- BLOB
+** BLOB **
 	- BLOCK BLOBS
 	  - Streaming, images, videos etc.
 	- APPEND BLOBS
@@ -74,8 +75,7 @@ ASP.NET web application
  - Check for types
  - Cast to the proper types and list the Blobs with the model
  
-
-- Azure function
+** Azure function **
  - handleBlobupload
  - name: StorageAccountConnection
  - path: files
@@ -100,17 +100,17 @@ ASP.NET web application
 
 ## Dag 3:
 
-Cognitive services
+** Cognitive services **
 - L.U.I.S (voice)
 - Computer vision api (billeder)
 - BOT / QnA maker
 - A.I. / M.L.
 - FACE api 
 
-Cosmos DB:
+** Cosmos DB: **
 - Option to choose different types of storage
 
-Graph:
+** Graph: ** 
 https://developer.microsoft.com/en-us/graph/graph-explorer
  - create, edit, read 
  
@@ -120,8 +120,8 @@ Scaling
 
 ## Dag 5:
 
-API Management
-Busses: 
+** API Management **
+** Busses: **
   - Storage Queue
 	- Azure Functions
 	- Passing a message from frontend to backend without the user having to wait for it to be processed (orders)
@@ -133,3 +133,6 @@ Microsoft.Azure.Storage.Queue
 - Microsoft Graph
 - Azure Relay
 
+## Dag 6:
+
+** Azure Search: **
