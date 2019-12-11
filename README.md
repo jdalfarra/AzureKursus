@@ -1,4 +1,4 @@
-# Azure Kursus
+# Azure Kursus ![alt text](https://mspoweruser.com/wp-content/uploads/2017/09/azure-1.png "Logo Title Text 1")
 
 ## Dag 1:
 
