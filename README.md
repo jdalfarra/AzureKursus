@@ -27,12 +27,6 @@
 [REPO - function app](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.Functions)
 	- consumtion plan spinner en maskine op i MAKS 7 min
 	- simple app using fluent api
-	- 
-**API APP**
-
-**LOGIC APP**
-
-**MOBILE APP**
 
 ## Dag 2
 
@@ -40,12 +34,11 @@
 Save confidential keys:
  - Certificates
  - Secrets
-    |_ URL
+    - URL
  -  Replace hardcoded keys:
  	- AzureServiceTokenProvider()
 	- KeyVaultClient(new KeyVaultClient.AuthenticationCallback(azureServiceTokenProvider.KeyVaultTokenCallback))
 	- KeyVaultClient.GetSecretAsync("keyvault url").GetAwaiter().GetResult().Result
-	- T
   
 **Logic apps:**
 - Workflow solution
@@ -67,18 +60,6 @@ encryption with key vaults
 	  - Good for logging or appending
 	- PAGE BLOBS
 	  - Files, compressed
-
-ASP.NET web application
-- first: find the strategy to transfer data
-	- Access Keys
-- Nuget packages: Microsoft.Azure.Storage.Blob
- - CloudStorageAccount.Parse(connectionstring)
- - CloudBlobClient = ^.CreateCloudBlobClient()
- - CloudBlobContainer ^.GetContainerReference()
- - ^.createIfNotExits()
- - cloudBlobContainer.ListBlobs()
- - Check for types
- - Cast to the proper types and list the Blobs with the model
  
 **Azure function**
 [REPO - Function](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.Functions)
