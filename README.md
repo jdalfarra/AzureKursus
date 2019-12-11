@@ -23,7 +23,7 @@
 		- continuous
 		- triggered
 		- create web job <- publish <- check log
-**FUNCTION APP (azure functions)**
+**FUNCTION APP (azure functions):**
 [REPO - function app](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.Functions)
 	- consumtion plan spinner en maskine op i MAKS 7 min
 	- simple app using fluent api
@@ -52,7 +52,7 @@ Storage account: only blobs options
 encryption with key vaults
 
 
-**BLOB**
+**BLOB:**
 [REPO - blob](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.StorageQueueApp)
 	- BLOCK BLOBS
 	  - Streaming, images, videos etc.
@@ -61,7 +61,7 @@ encryption with key vaults
 	- PAGE BLOBS
 	  - Files, compressed
  
-**Azure function**
+**Azure function:**
 [REPO - Function](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.Functions)
  - handleBlobupload
  - name: StorageAccountConnection
@@ -87,7 +87,7 @@ encryption with key vaults
 
 ## Dag 3:
 
-**Cognitive services**
+**Cognitive services:**
 [REPO - cognitive services](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.CognitiveServices)
 - L.U.I.S (voice)
 - Computer vision api (billeder)
@@ -102,8 +102,7 @@ encryption with key vaults
 **Graph:** 
 https://developer.microsoft.com/en-us/graph/graph-explorer
  - create, edit, read 
- 
-Scaling
+ - Scaling
 
 ## Dag 4:
 **Authentication:**
@@ -113,7 +112,7 @@ Scaling
  
 ## Dag 5:
 
-**API Management**
+**API Management:**
 **Busses:**
 [REPO - servicebus](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.ServiceBusQueue)
 [REPO - queue](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.StorageQueueApp)
@@ -136,7 +135,7 @@ Microsoft.Azure.Storage.Queue
  	- Can help selecting where to fetch data from: geolocation, load, performance, priority
  - Keys: Admin-key (CRUD) + query-key (read)
  - Indexes, can be created using .NET (SearchServiceClient)
-**Indexes**
+**Indexes:**
  - Content, relational databases, streaming data, NoSQL databases
  - Creating the index each field needs a type (string, int, double etc..)
  - Retrievable *(retived as result)*, Filterable *(filter by fx color)*, Sortable *(sort)*, facetable *(facets)*, searchable *(search)*
@@ -185,6 +184,5 @@ Query syntax:
  - Kubenetes
  	- Nodes containing VM's, that all can run different apps or services
 
-|[AZ-203 learning repo](https://github.com/MicrosoftLearning/AZ-203-DevelopingSolutionsforMicrosoftAzure)|
-[AZ-301 learning repo](https://github.com/MicrosoftLearning/AZ-301-MicrosoftAzureArchitectDesign)|
+|[AZ-203 learning repo](https://github.com/MicrosoftLearning/AZ-203-DevelopingSolutionsforMicrosoftAzure)|[AZ-301 learning repo](https://github.com/MicrosoftLearning/AZ-301-MicrosoftAzureArchitectDesign)|
 ------------------------------------------------------------------------------------------------------
