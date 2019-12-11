@@ -1,9 +1,9 @@
-# Azure Kursus ![alt text](https://mspoweruser.com/wp-content/uploads/2017/09/azure-1.png "Logo Title Text 1")
+# Azure Kursus ![alt text](https://cdn.iconscout.com/icon/free/png-256/azure-1-190761.png "Logo")
 
 ## Dag 1:
 
 **WEB APPS:**
-- WEB APP
+- WEB APP [test]
 	- WEB APP service plan: windows machine with iss where you can add WEB APPS
 	- template
 	- Deployment slot: 
