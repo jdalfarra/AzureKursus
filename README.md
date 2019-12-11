@@ -1,9 +1,12 @@
-# Azure Kursus ![alt text](https://cdn.iconscout.com/icon/free/png-256/azure-1-190761.png "Logo")
+# Azure Kursus 
+
+![alt text](https://cdn.iconscout.com/icon/free/png-256/azure-1-190761.png "Logo")
 
 ## Dag 1:
 
 **WEB APPS:**
-- WEB APP [test]
+[Repo](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologiks.Kursus.Website)
+- WEB APP 
 	- WEB APP service plan: windows machine with iss where you can add WEB APPS
 	- template
 	- Deployment slot: 
@@ -23,6 +26,7 @@
 		- triggered
 		- create web job <- publish <- check log
 **FUNCTION APP (azure functions)**
+[Repo](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.Functions)
 	- consumtion plan spinner en maskine op i MAKS 7 min
 	- simple app using fluent api
 	- 
@@ -78,6 +82,7 @@ ASP.NET web application
  - Cast to the proper types and list the Blobs with the model
  
 **Azure function**
+[REPO - Function](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.Functions)
  - handleBlobupload
  - name: StorageAccountConnection
  - path: files
@@ -103,6 +108,7 @@ ASP.NET web application
 ## Dag 3:
 
 **Cognitive services**
+[REPO - cognitive services](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.CognitiveServices)
 - L.U.I.S (voice)
 - Computer vision api (billeder)
 - BOT / QnA maker
@@ -110,6 +116,7 @@ ASP.NET web application
 - FACE api 
 
 **Cosmos DB:**
+[REPO - cosmos](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.CosmosDB)
 - Option to choose different types of storage
 
 **Graph:** 
@@ -127,6 +134,8 @@ Scaling
 
 **API Management**
 **Busses:**
+[REPO - servicebus](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.ServiceBusQueue)
+[REPO - queue](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.StorageQueueApp)
   - Storage Queue
 	- Azure Functions
 	- Passing a message from frontend to backend without the user having to wait for it to be processed (orders)
@@ -183,6 +192,7 @@ Query syntax:
 	- ex. document -> send traffic to one web app, videos send traffic to another web app
 
 ** API APPS **
+[Repo](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.APIAPP)
  - Similar functionality to Web apps
  - integrated with logic apps and API managemnet
  - Built in authenticaion
