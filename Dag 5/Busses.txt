@@ -1,6 +1,10 @@
 - Storage Queue
 	- Azure Functions
+	- Passing a message from frontend to backend without the user having to wait for it to be processed (orders)
+nuget:
+Microsoft.Azure.Storage.Queue
+
 - Service Bus Queue
+	- Topics: can be used to more recivers
 - Microsoft Graph
 - Azure Relay
-- 

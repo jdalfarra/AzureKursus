@@ -1,0 +1,8 @@
+API management
+- 
+
+36474F3BDE11A52CC81B4C7FB4C6C965
+
+DefaultEndpointsProtocol=https;AccountName=searchaccount;AccountKey=QViYIl0QpStWeuceGEhq3dm+9K4pxReXBcuBJNiYmSsPWCgQ0/f78HiJEwT8ipWWRdOf/2i/qf+5+jyjBSR/jw==;EndpointSuffix=core.windows.net
+
+https://jdk-search.search.windows.net
