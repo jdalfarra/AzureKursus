@@ -54,6 +54,7 @@ encryption with key vaults
 
 **BLOB:**
 [REPO - blob](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.StorageQueueApp)
+
 	- BLOCK BLOBS
 	  - Streaming, images, videos etc.
 	- APPEND BLOBS
