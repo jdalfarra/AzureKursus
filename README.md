@@ -167,14 +167,8 @@ DocumentSearchResult<Hotel> results = indexClient.Documents.Search<Hotel>("budge
 
 Query syntax:
 |AND|+|
--------
 |OR|\||
--------
 |NOT|-|
--------
 |Suffix|* |
------------
 |Phare|""|
-----------
 |Precedence|()|
----------------
