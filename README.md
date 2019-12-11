@@ -27,7 +27,9 @@
 	- simple app using fluent api
 	- 
 **API APP**
+
 **LOGIC APP**
+
 **MOBILE APP**
 
 ## Dag 2
