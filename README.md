@@ -165,3 +165,16 @@ SearchParameters parameters = new SearchParameters()
 DocumentSearchResult<Hotel> results = indexClient.Documents.Search<Hotel>("budget", parameters);
 ```
 
+Query syntax:
+|AND|+|
+-------
+|OR|\||
+-------
+|NOT|-|
+-------
+|Suffix|* |
+-----------
+|Phare|""|
+----------
+|Precedence|()|
+---------------
