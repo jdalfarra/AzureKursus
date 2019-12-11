@@ -166,14 +166,24 @@ Query syntax:
 | Phare  | "" |
 | Precedence  | () |
 
-**Traffic management**
+**Traffic management:**
  - _Destribution_: 2 app service plans in different region
  - _loadbalance_: distribute load to diffrent web apps
  - _application gateway_: routing, security (sql injection etc.)
 	- ex. document -> send traffic to one web app, videos send traffic to another web app
 
-**API APPS**
+**API APPS:**
 [Repo](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.APIAPP)
  - Similar functionality to Web apps
  - integrated with logic apps and API managemnet
  - Built in authenticaion
+
+**Containers:**
+ - Splitting the application into small areas like (Backend, Frontend, Datalayer etc.)
+ - Scalling advantages, can scale the containers that is under most load
+ 	- Without need of scaling the whole infrastructure
+ - Kubenetes
+ 	- Nodes containing VM's, that all can run different apps or services
+
+[AZ-203 learning repo](https://github.com/MicrosoftLearning/AZ-203-DevelopingSolutionsforMicrosoftAzure)
+[AZ-301 learning repo](https://github.com/MicrosoftLearning/AZ-301-MicrosoftAzureArchitectDesign)
