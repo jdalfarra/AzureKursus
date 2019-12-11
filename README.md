@@ -118,6 +118,9 @@ Scaling
 
 ## Dag 4:
 **Authentication:**
+ - Groups, rules etc. 
+ - Basic auth in .NET possible
+ 
 ## Dag 5:
 
 **API Management**
@@ -136,3 +139,15 @@ Microsoft.Azure.Storage.Queue
 ## Dag 6:
 
 **Azure Search:**
+ - Posibility to create custom indexes, faceting 
+ - Trafic manager:
+ 	- Can help selecting where to fetch data from: geolocation, load, performance, priority
+ - Keys: Admin-key (CRUD) + query-key (read)
+ - Indexes, can be created using .NET (SearchServiceClient)
+**Indexes**
+ - Content, relational databases, streaming data, NoSQL databases
+ - Creating the index each field needs a type (string, int, double etc..)
+ - Retrievable *(retived as result)*, Filterable *(filter by fx color)*, Sortable *(sort)*, facetable *(facets)*, searchable *(search)*
+ - REST CRUD operations
+ - Lucene, ODATA or easy search
+ - 
