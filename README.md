@@ -2,7 +2,7 @@
 
 ## Dag 1:
 
-** WEB APPS: **
+**WEB APPS:**
 - WEB APP
 	- WEB APP service plan: windows machine with iss where you can add WEB APPS
 	- template
