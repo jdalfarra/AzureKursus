@@ -152,4 +152,12 @@ Microsoft.Azure.Storage.Queue
  - Retrievable *(retived as result)*, Filterable *(filter by fx color)*, Sortable *(sort)*, facetable *(facets)*, searchable *(search)*
  - REST CRUD operations
  - Lucene, ODATA or easy search
- - 
+```
+SearchParameters parameters = new SearchParameters()
+{
+   Filer = "baseRate lt 150",
+   Select = new[] { "hotelId", "description" 
+}
+
+DocumentSearchResult<Hotel> results = indexClient.Documents.Search<Hotel>("budget", parameters);
+```
