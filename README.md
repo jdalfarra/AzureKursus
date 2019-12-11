@@ -1,4 +1,4 @@
-# AzureKursus
+# Azure Kursus
 
 ## Dag 1:
 
@@ -176,3 +176,9 @@ Query syntax:
 | Phare  | "" |
 | Precedence  | () |
 
+** Traffic management **
+ - _Destribution_: 2 app service plans in different region
+ - _loadbalance_: distribute load to diffrent web apps
+ - _application gateway_: routing, security (sql injection etc.)
+	- ex. document -> send traffic to one web app, videos send traffic to another web app
+ - 
