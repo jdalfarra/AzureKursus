@@ -68,8 +68,8 @@ encryption with key vaults
  - path: files
  - add StorageAccountConnection to local.settings.json
  - also add StorageAccountConnection to when deploying to azure PlatformFeatures -> configurations -> new application  setting
- - 
-
+ 
+ 
 - FILE
 - QUEUE
 	- First in - not first out
