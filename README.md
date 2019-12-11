@@ -55,12 +55,12 @@ encryption with key vaults
 **BLOB:**
 [REPO - blob](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.StorageQueueApp)
 
-	- BLOCK BLOBS
-	  - Streaming, images, videos etc.
-	- APPEND BLOBS
-	  - Good for logging or appending
-	- PAGE BLOBS
-	  - Files, compressed
+- BLOCK BLOBS
+  - Streaming, images, videos etc.
+- APPEND BLOBS
+  - Good for logging or appending
+- PAGE BLOBS
+  - Files, compressed
  
 **Azure function:**
 [REPO - Function](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.Functions)
