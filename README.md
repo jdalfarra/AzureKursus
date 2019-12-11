@@ -152,7 +152,10 @@ Microsoft.Azure.Storage.Queue
  - Retrievable *(retived as result)*, Filterable *(filter by fx color)*, Sortable *(sort)*, facetable *(facets)*, searchable *(search)*
  - REST CRUD operations
  - Lucene, ODATA or easy search
+
+_Ex on querying:_ 
 ```
+//Find all hotels less than 150 and return the hotelId and description
 SearchParameters parameters = new SearchParameters()
 {
    Filer = "baseRate lt 150",
@@ -161,3 +164,4 @@ SearchParameters parameters = new SearchParameters()
 
 DocumentSearchResult<Hotel> results = indexClient.Documents.Search<Hotel>("budget", parameters);
 ```
+
