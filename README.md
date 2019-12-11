@@ -173,7 +173,7 @@ Query syntax:
 	- ex. document -> send traffic to one web app, videos send traffic to another web app
 
 **API APPS:**
-[Repo](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.APIAPP)
+[REPO - API app](https://github.com/jdalfarra/AzureKursus/tree/master/Teknologisk.Kursus/Teknologisk.Kursus.APIAPP)
  - Similar functionality to Web apps
  - integrated with logic apps and API managemnet
  - Built in authenticaion
