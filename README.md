@@ -181,4 +181,9 @@ Query syntax:
  - _loadbalance_: distribute load to diffrent web apps
  - _application gateway_: routing, security (sql injection etc.)
 	- ex. document -> send traffic to one web app, videos send traffic to another web app
+
+** API APPS **
+ - Similar functionality to Web apps
+ - integrated with logic apps and API managemnet
+ - Built in authenticaion
  - 
